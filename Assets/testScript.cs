@@ -11,6 +11,8 @@ public class testScript : MonoBehaviour
     {
         GetComponent<Button>().onClick.AddListener(s);
     }
+    //just changes something here
+
     public void s()
     {
         GameStatPanelControler.AddStoreIncomeToGameStats(1);
